@@ -1,6 +1,6 @@
 // Variables..........
 
-var ComputerChoices = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]; 
+var ComputerChoices = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",]; 
 
 var wins = 0;
 var losses = 0;
@@ -72,8 +72,11 @@ document.onkeyup = function(event) {
         
     var computerGuess = ComputerChoices[Math.floor(Math.random() * ComputerChoices.length)];
    
-    
+    var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
    
+
+ if (options.indexOf(userguess) > -1) {
+     
     if(userguess === computerGuess){
         wins++;
         alert("YOUR GUESS WAS RIGHT YOU MUST BE PSYCHIC!!");
@@ -107,7 +110,7 @@ document.onkeyup = function(event) {
 
     lossesText.textContent = losses;
 
-    
+} 
 };
 
 
