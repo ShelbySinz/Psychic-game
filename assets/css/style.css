@@ -1,0 +1,66 @@
+body {
+    background-image: url(../backgroundimg.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    color:blue;
+    font-size:60px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+h2 {
+    font-size:30px;
+    color:blue;
+}
+
+.container {
+    background-color: burlywood;
+      margin-top: 5px;
+        margin-left: 20%;
+        margin-right:20%;
+        text-align: center;
+        
+    }
+
+    p{
+        font-size:20px;
+        color:black;
+        font-weight: bolder;
+    }
+
+
+#scorekeeper {
+    padding: 20px;
+}
+
+#letter{
+    font-size:30px;
+    padding-top:10px;
+}
+
+
+.holder {
+    padding: 5px;
+    position: relative;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+span {
+    border: solid  2px;
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: grey; 
+    font-size: 15px;
+}
