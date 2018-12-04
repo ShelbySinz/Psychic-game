@@ -72,6 +72,8 @@ document.onkeyup = function(event) {
         
     var computerGuess = ComputerChoices[Math.floor(Math.random() * ComputerChoices.length)];
    
+  console.log(computerGuess);
+
     var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
    
 
@@ -79,7 +81,9 @@ document.onkeyup = function(event) {
      
     if(userguess === computerGuess){
         wins++;
+       
         alert("YOUR GUESS WAS RIGHT YOU MUST BE PSYCHIC!!");
+       
         reset();
     }
 
